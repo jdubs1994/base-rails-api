@@ -39,6 +39,7 @@ group :development, :test do
   gem 'faker'
   gem 'jsonapi-rspec', '~> 0.0.11'
   gem 'dotenv-rails', '~> 2.7', '>= 2.7.6'
+  gem 'pry-byebug'
 end
 
 group :development do
