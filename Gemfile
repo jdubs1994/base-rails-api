@@ -18,6 +18,9 @@ gem 'puma', '~> 5.0'
 
 gem 'devise', '~> 4.8', '>= 4.8.1'
 gem 'devise-jwt', '~> 0.9.0'
+gem 'rack-cors', '~> 1.1', '>= 1.1.1'
+gem 'jsonapi-rails', '~> 0.4.0'
+
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
@@ -31,6 +34,10 @@ gem 'bootsnap', '>= 1.4.4', require: false
 group :development, :test do
   # Call 'byebug'`` anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rspec-rails', '~> 5.1', '>= 5.1.1'
+  gem 'factory_bot_rails', '~> 6.2'
+  gem 'faker'
+  gem 'jsonapi-rspec', '~> 0.0.11'
 end
 
 group :development do
